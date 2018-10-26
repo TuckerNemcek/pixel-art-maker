@@ -2,7 +2,7 @@
 
 
 
-let cells = 1320
+let cells = 1110
 //44 per row
 
 
@@ -21,10 +21,14 @@ for (let i = 0; i < cells; i++){
 
   board.appendChild(cell)
 
+  cell.addEventListener("click", function (event) {
+    cell.style.backgroundColor = selectedColor
+  })
+
 }
-document.querySelector(".board").addEventListener("click", function (event) {
-  event.target.style.backgroundColor = selectedColor
-})
+// document.querySelector(".board").addEventListener("click", function (event) {
+//   event.target.style.backgroundColor = selectedColor
+// })
 
   document.getElementById("red").addEventListener("click", function () {
   selectedColor = ("red")
