@@ -1,0 +1,67 @@
+html, body {
+  height: 100%
+}
+
+#red {
+  background-color: red;
+  color: #fff;
+}
+
+#blue {
+  background-color: blue;
+  color: #fff;
+}
+
+#yellow {
+  background-color: yellow;
+  color: #fff;
+}
+
+/* .wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+
+.red {
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.blue {
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.yellow {
+  background-color: yellow;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.canvas {
+  background-color: selectedColor;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+} */
